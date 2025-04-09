@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from .KPConv.models import KPEncoder, KPDecoder
+from KPConv.models import KPEncoder, KPDecoder
 import cpp_wrappers.grouping.lib.grouping_cuda as grouping
 
 class ResNet_PCD(nn.Module):
