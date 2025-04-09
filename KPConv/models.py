@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from models.backbone.KPConv.modules import *
+from .modules import *
 
 
 class KPEncoder(nn.Module):

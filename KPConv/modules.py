@@ -3,8 +3,8 @@ import torch
 import torch.nn as nn
 from torch.nn.init import kaiming_uniform_
 from torch.nn.parameter import Parameter
-from models.backbone.KPConv.kernels.kernel_points import load_kernels
-from models.backbone.KPConv.operations import *
+from .kernels.kernel_points import load_kernels
+from .operations import *
 
 ####################
 # Block Decider
